@@ -1,8 +1,73 @@
 .nosotros{
    padding-top: 15vh;
 }
-.nosotros .info-1{
-
+.nosotros .info-1, .nosotros .info-2, .nosotros .info-3{
+    position: relative;
     background-color: #1278BD;
-    min-height: 400px;
+    min-height: 450px;
+    height: 100%;
+    padding: 2.5em;
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-right:10px;
+}
+
+.nosotros  h2{
+    color: #fff;
+    font-size: 3.5em;
+    line-height: 0.86em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 0.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+.nosotros  p{
+    padding-left: 35px;
+    color: #fff;
+    font-family: 'Roboto', ligth;
+}
+.nosotros .info-2{
+    margin-top:15%;
+    background-color: transparent;
+}
+.nosotros .info-3{
+    margin-top:25%;
+}
+.nosotros .info-2  h2{
+    color: #1278BD;
+    font-size: 3.5em;
+    line-height: 0.86em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 0.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+.nosotros .info-2  p{
+    padding-left: 35px;
+    color: #1278BD;
+    font-family: 'Roboto', ligth;
+}
+.team-tittle h2{
+    margin-top:5%;
+    color: #1278BD;
+    font-size: 3.8em;
+    line-height: 0.86em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.team{
+    position: relative;
+}
+.team-msg {
+    position: absolute;
+    z-index: 2;
+    font-size: 2.5em;
+    top: 40%;
+    left: 30%;
+}
+.team-box{
+    z-index:3;
+}
+.team-box .sofa{
+
 }
