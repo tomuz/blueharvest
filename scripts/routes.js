@@ -22,13 +22,22 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 
             }
         })
-        .state('view2', {
-            url: "/view",
+        .state('nosotros', {
+            url: "/nosotros",
             views: {
+                'header':{
+                    templateUrl: 'views/header.html',
+                    controller:'headerCtrl'
+                },
                 'main': {
-                    templateUrl: 'views/view.html',
-                    controller: 'homeCtrl'
+                    templateUrl: 'views/nosotros.html',
+                    controller: 'usCtrl'
+                },
+                'footer': {
+                    templateUrl: 'views/footer.html',
+                    controller:'footerCtrl'
                 }
+
             }
 
 
