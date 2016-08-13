@@ -44,6 +44,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         })
         .state('services', {
             url: "/services",
+            cache: false,
             views: {
                 'header':{
                     templateUrl: 'views/header.html',
