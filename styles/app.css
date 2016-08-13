@@ -157,6 +157,8 @@ html{
   height: 100%;
   background-color: #2e466c;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   z-index: 20;
   top: -150vh;
@@ -190,13 +192,24 @@ html{
 .navigation > ul > li:nth-child(4) {
   transition-delay: .8s;
 }
+.navigation > ul > li:nth-child(5) {
+  transition-delay: .9s;
+}
+.navigation > ul > li:nth-child(6) {
+  transition-delay: 1s;
+}
+.navigation > ul > li:nth-child(7) {
+  transition-delay: 1.5s;
+}
 .navigation > ul > li a {
+  font-family: 'Raleway';
   display: inline-block;
   color: white;
   padding: 10px 0 10px 0;
   margin-bottom: 5px;
   user-select: none;
-  font-size: 30px;
+  font-size: 80px;
+  font-weight: 100;
   border-bottom: 1px solid transparent;
   text-decoration: none;
   transition: all .2s;
@@ -252,6 +265,25 @@ html{
 }
 .navigation.open .close-btn {
   opacity: 1;
+}
+.navigation .nav-footer {
+  border-top: 1px solid rgba(255,255,255,0.5);
+  width: 100%;
+  font-size: 25px;
+  color: white;
+  font-weight: 100;
+  margin-top: 40px;
+}
+.navigation .nav-footer a{
+  font-size: 25px;
+}
+.navigation .nav-footer .copyright{
+  float: left;
+  padding: 10px 0 10px 0;
+  margin-bottom: 5px;
+}
+.navigation .nav-footer .contact-info{
+  float: right;
 }
 
 @keyframes grow-outer-circle {
