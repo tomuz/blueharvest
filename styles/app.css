@@ -262,6 +262,7 @@ html{
   background-color: #32b4fa;
 }
 .navigation.open {
+
   transition: top 0s .5s;
   top: 0;
 }
@@ -376,4 +377,38 @@ html{
 .c-tooltip:hover::after {
   opacity: 1;
   transform: translate(-50%);
+}
+
+/* MEDIA 1366 */
+@media only screen and (min-width: 768px) {
+  .logoBh{
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .bh-text{
+    font-size: 60px;
+  }
+  .navigation > ul > li a {
+    font-size: 60px;
+  }
+
+  .section-service-item{
+    padding:2em;
+  }
+  .service-img img{
+    max-width: 350px;
+    padding: 5%;
+    margin-left: 15% !important;
+  }
+
+  .section-service-item h2{
+    font-size: 2.8em;
+
+  }
+  .section-service-item p{
+    padding-left: 35px;
+    font-size: 18px;
+  }
+
 }

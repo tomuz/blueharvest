@@ -44,15 +44,8 @@
 }
 .nosotros .info-2  h2{
     color: #1278BD;
-    font-size: 3.5em;
-    line-height: 0.86em;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 0 0 0.5em;
-    font-family: 'Montserrat', sans-serif;
 }
 .nosotros .info-2  p{
-    padding-left: 35px;
     color: #1278BD;
     font-family: 'Roboto', ligth;
 }
@@ -90,4 +83,23 @@
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50% -50%);
     z-index:3;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .nosotros .info-1, .nosotros .info-2, .nosotros .info-3{
+        min-height: 350px;
+    }
+
+    .nosotros  h2{
+
+        font-size: 2.5em;
+    }
+    .nosotros  p{
+        padding-left: 20px;
+        font-size:15px;
+    }
+    .team-tittle h2{
+        font-size: 2.8em;
+    }
 }
